@@ -1,0 +1,7 @@
+.lead__img {
+    background-image: url(/russian-travel/images/lead-polka.jpg);
+    background-size: contain;
+    width: 984px;
+    height: 615px;
+    margin: auto;
+}

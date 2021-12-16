@@ -1,0 +1,11 @@
+.cover {
+    background-image: url(/russian-travel/images/cover-trains.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 740px;
+    width: 1184px;
+    margin-left: 130px;
+    position: relative;
+    color: #FFFFFF;
+}
+
