@@ -1,3 +1,4 @@
 .footer {
-    min-height: 134px;
+    max-width: 1184px;
+    margin: auto;
 }

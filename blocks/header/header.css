@@ -1,29 +1,31 @@
-.lead {
-    max-width: 984px;
+.header {
+    max-width: 1184px;
     margin: auto;
-    
 }
 
+
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
-    .lead {
-        max-width: 1024px;
+    .header {
+        max-width: 928px;
         margin: auto;
+    
     
         
     }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-    .lead {
-        max-width: 100%;
+    .header {
+        max-width: 720px;
         margin: auto;
+        
         
     }
 }
 
 @media screen and (max-width: 768px) and (min-width: 425px) {
-    .lead {
-        max-width: 100%;
+    .header {
+        max-width: 500px;
         margin: auto;
     
         
@@ -31,9 +33,9 @@
 }
 
 @media screen and (max-width: 425px) and (min-width: 320px) {
-    .lead   {
+    .header  {
      
-         max-width: 100%;
+         max-width: 320px;
          margin: auto;
  }
  }
@@ -42,7 +44,7 @@
 
 
 @media screen and (max-width: 320px) {
-    .lead {
+    .header {
         max-width: 320px;
         margin: auto;
     }

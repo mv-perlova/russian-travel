@@ -1,11 +1,33 @@
 .cover {
-    background-image: url(/russian-travel/images/cover-trains.jpg);
+    background-image: url(/images/cover-trains.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
     height: 740px;
-    width: 1184px;
-    margin-left: 130px;
+    width: 100%;
+    margin: auto;
     position: relative;
     color: #FFFFFF;
+    max-width: 1184px;
+    background-position: center;
+object-fit: cover;
+}
+
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    .cover {
+        
+}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .cover {
+        
+}
+}
+@media screen and (max-width: 768px) and (min-width: 320px) {
+    .cover {
+        
+        
+    
+}
 }
 
