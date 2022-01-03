@@ -1,9 +1,7 @@
 .footer__copyright {
     margin-top: 0;
     margin-bottom: 24px;
-    font-family: Inter;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0em;
@@ -14,9 +12,7 @@
     .footer__copyright {
         text-align: left;
         margin: 48px 0 24px;
-        font-size: 14px;
-
-        line-height: 16px;
+    
 
     }
 }
@@ -25,9 +21,7 @@
     .footer__copyright {
         text-align: left;
         margin: 48px 0 24px;
-        font-size: 14px;
-
-        line-height: 16px;
+        
 
     }
 }

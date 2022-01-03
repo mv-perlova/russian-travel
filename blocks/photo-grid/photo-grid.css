@@ -5,13 +5,13 @@
     padding-bottom: 92px;
     gap: 16px;
     max-width: 1184px;
-    /* width: calc(100% - 2 * 16px); */
+
 }
 
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
     .photo-grid {
-        /* max-width: 1279px; */
+        
         grid-template-columns: repeat(3, 1fr);
         gap: 14px;
         margin: 92px auto 0;
@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .photo-grid {
-        /* max-width: 1023px; */
+        
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
         margin: 88px auto 0;
@@ -32,7 +32,7 @@
 }
 @media screen and (max-width: 767px) and (min-width: 425px) {
     .photo-grid {
-        /* max-width: 767px; */
+        
         grid-template-columns: repeat(2, 1fr);
         gap: 14px;
         margin: 64px auto 0;
@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 424px) and (min-width: 320px) {
     .photo-grid {
-        /* max-width: 424px; */
+        
         grid-template-columns: repeat(1, 1fr);
         gap: 12px;
         margin: 64px auto 0;
@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 320px) {
     .photo-grid {
-        /* max-width: 288px; */
+        
         grid-template-columns: repeat(1, 1fr);
         gap: 12px;
         margin: 64px auto 0;
