@@ -2,3 +2,42 @@
     max-width: 1184px;
     margin: auto;
 }
+
+@media screen and (max-width: 1279px) and (min-width: 769px) {
+    .footer {
+        margin-left: 48px;
+        margin-right: 48px;
+    
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .footer {
+        
+        margin-left: 24px;
+        margin-right: 24px;
+        
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .footer {
+
+        margin-left: 16px;
+        margin-right: 16px;
+    
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .footer {
+        
+
+        margin-left: 16px;
+        margin-right: 16px;
+        
+    
+        
+    }
+}

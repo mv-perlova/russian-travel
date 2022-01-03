@@ -1,24 +1,24 @@
 .content {
-    max-width: 1184px;
+    /*max-width: 1184px;*/
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1279px) and (min-width: 1024px) {
+/*@media screen and (max-width: 1279px) and (min-width: 1024px) {
     .content {
-        max-width: 928px;
+        max-width: 1024px;
         
 }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     .content {
-        max-width: 768px;
+        max-width: 1024px;
         
 }
 }
 @media screen and (max-width: 768px) and (min-width: 425px) {
     .content {
-        max-width: 425px;
+        max-width: 768px;
         
     
 }
@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 425px) and (min-width: 288px) {
     .content {
-        max-width: 288px;
+        max-width: 320px;
         
     
 }
@@ -37,4 +37,4 @@
         max-width: 288px;
         
     }
-}
+}*/

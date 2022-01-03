@@ -33,11 +33,11 @@ margin-bottom: 0;
 }
 }
 
-@media screen and (max-width: 425px) and (min-width: 288px) {
+@media screen and (max-width: 424px) and (min-width: 288px) {
     .place__url-heading {
         max-width: 320px;
         gap: 14px;
-        
+        margin-left: 16px;
     
 }
 }
@@ -46,6 +46,6 @@ margin-bottom: 0;
     .place__url-heading {
         max-width: 320px;
         gap: 14px;
-        
+        margin-left: 16px;
     }
 }

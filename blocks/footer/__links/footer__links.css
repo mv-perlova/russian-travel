@@ -6,3 +6,21 @@
     list-style-type: none;
     padding: 0;
 }
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .footer__links {
+        display: grid;
+        grid-row-gap: 32px;
+        margin-bottom: 0;
+
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .footer__links {
+        display: grid;
+        grid-row-gap: 32px;
+        margin-bottom: 0;
+
+    }
+}

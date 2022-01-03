@@ -1,67 +1,55 @@
 .lead__title {
-    width: 720px;
-     margin: 136px auto 0;
-font-family: Inter;
-font-size: 96px;
-font-style: normal;
-font-weight: 900;
-line-height: 100px;
-letter-spacing: 0em;
-text-align: center;
+    max-width: 720px;
+    width: calc(100% - 32px);
+    margin: 56px auto 0;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
 
-
-@media screen and (max-width: 1279px) and (min-width: 1024px) {
-    .lead__title {
-        width: 720px;
-     margin: 136px auto 0;
-margin-top: 136px;
-font-size: 96px;
-line-height: 100px;
-text-align: center;
-}
-}
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     .lead__title {
-        width: 720px;
-     margin: 128px auto 0;
-margin-top: 136px;
-font-size: 96px;
-line-height: 100px;
-text-align: center;
-}
-}
-@media screen and (max-width: 768px) and (min-width: 425px) {
-    .lead__title {
-        padding-top: 0px;
-        font-family: Inter;
-font-size: 40px;
-font-style: normal;
-font-weight: 900;
-line-height: 44px;
-letter-spacing: 0em;
-text-align: center;
-width: 288px;
-margin: 106px auto 0;
-}
+        
+        margin: 48px auto 0;
+
+    }
 }
 
+
+@media screen and (max-width: 767px) and (min-width: 321px) {
+    .lead__title {
+        margin: 48px auto 0;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: center;
+
+
+
+    }
+}
 
 @media screen and (max-width: 320px) {
     .lead__title {
-        width: 288px;
-        padding-top: 0px;
-font-size: 40px;
-font-style: normal;
-font-weight: 900;
-line-height: 44px;
-letter-spacing: 0em;
-text-align: center;
-margin: 106px auto 0;
+        margin: 48px auto 0;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: center;
 
 
+
+    }
 }
-}
-

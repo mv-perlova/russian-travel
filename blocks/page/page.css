@@ -2,6 +2,9 @@
     background-color: #2A2C2F;
     color: #FFFFFF;
     margin: auto;
+    font-weight: 400;
     font-family: 'Inter', Arial, sans-serif;
+    min-width: 320px;
+    max-width: 1280px;
   
 }
