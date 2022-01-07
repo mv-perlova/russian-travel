@@ -1,9 +1,10 @@
 .cover__overlay {
     background-image: url(../../../images/cover-trains.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    height: calc(100vw * 740 / 1184);
+    max-height: 740px;
     color: #fff;
-    min-height: 62.5vw;
     position: relative;
     text-decoration: none;
     display: flex;
@@ -13,6 +14,8 @@
     opacity: 80%;
     z-index: 1;
     box-sizing: border-box;
+    
+   
 }
 
 .cover__overlay::before {

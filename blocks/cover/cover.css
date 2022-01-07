@@ -1,20 +1,6 @@
 .cover {
 
     margin: auto;
-    min-height: 62.5vw;
-    width: 92.5vw;
-
-}
-
-
-@media screen and (max-width: 1279px) and (min-width: 321px) {
-    .cover {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .cover {
-        width: 100%;
-    }
+    width: 100%;
+    max-width: 1184px;
 }
